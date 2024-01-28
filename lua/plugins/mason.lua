@@ -9,6 +9,7 @@ return {
         "cpplint",
        -- "golangci-lint", -- use system golangci-lint for specific version 
         "golangci-lint-langserver", -- will use available version, even global one from system
+        "gopls",
         "json-lsp",
         "lua-language-server",
         "pyright",
