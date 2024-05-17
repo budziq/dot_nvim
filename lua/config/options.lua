@@ -16,12 +16,12 @@ vim.opt.ruler = false
 vim.g.autoformat = false
 -- disable status column padding
 vim.opt.statuscolumn = ""
-
+vim.opt.conceallevel = 0
 -- neovide speciffic options
 if vim.g.neovide then
   -- disable the idiotic cursor animation
   vim.g.neovide_cursor_animation_length = 0
-  vim.o.guifont = "JetBrainsMonoNL_Nerd_Font:h8"
+  vim.o.guifont = "JetBrainsMonoNL_Nerd_Font:h12"
   vim.g.neovide_remember_window_size = true
   --vim.g.neovide_fullscreen = true
 end
