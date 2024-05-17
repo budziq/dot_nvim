@@ -8,6 +8,7 @@ return {
   {
     "echasnovski/mini.indentscope",
     opts = {
+      symbol = '│',
       draw = {
         -- disable indentscope animation
         animation = function()
@@ -16,6 +17,8 @@ return {
       },
     },
   },
+-- disable indent-blankline
+  { "lukas-reineke/indent-blankline.nvim", enabled = false },
 -- disable mini.pairs
   { "echasnovski/mini.pairs", enabled = false },
   -- or you can return new options to override all the defaults

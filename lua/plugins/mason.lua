@@ -5,8 +5,10 @@ return {
     opts = {
       ensure_installed = {
         "bash-language-server",
+        "codelldb",
         "clangd",
         "cpplint",
+        "delve",
        -- "golangci-lint", -- use system golangci-lint for specific version 
         "golangci-lint-langserver", -- will use available version, even global one from system
         "gopls",
