@@ -1,3 +1,5 @@
+if true then return {} end
+
 return {
   { import = "lazyvim.plugins.extras.test.core" },
   { import = "lazyvim.plugins.extras.dap.core" },
