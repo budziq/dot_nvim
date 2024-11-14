@@ -6,6 +6,14 @@ return {
     opts = {
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
+        ansiblels = {},
+        yamlls = {},
+
+        golangci_lint_ls = {}, -- will use available version, even global one from system
+        gopls = {},
+        bashls = {},
+
+        ruff = {},
         pyright = {},
         pylsp = {
           settings = {
